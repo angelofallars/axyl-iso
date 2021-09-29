@@ -133,9 +133,8 @@ sddm
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
-axyl-dwm
-axyl-dwmblocks
-axyl-dmenu-git
+axyl-qtile
+axyl-dmenu
 picom
 dunst
 udiskie
