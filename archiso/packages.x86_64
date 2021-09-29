@@ -1,4 +1,3 @@
-alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
@@ -106,7 +105,6 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
 virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
@@ -133,14 +131,20 @@ sddm
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
+axyl-skeleton
 axyl-qtile
 axyl-dmenu
+axyl-fonts
+axyl-vim
+axyl-nvim
 picom
 dunst
 udiskie
 lxdm-gtk3
 alacritty
 adapta-gtk-theme
+neofetch
+papirus-icon-theme
 fish
 dex
 libxinerama
@@ -282,3 +286,6 @@ i3lock-color
 xfce-polkit
 unimatrix-git
 yay
+shell-color-scripts
+cava
+tty-clock
