@@ -123,7 +123,7 @@ zsh
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-sddm
+#sddm
 #axyl-calamares
 #axyl-calamares-config
 
@@ -131,6 +131,8 @@ sddm
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
+lxdm-gtk3
+axyl-lxdm-theme
 axyl-skeleton
 axyl-qtile
 axyl-dmenu
@@ -140,7 +142,6 @@ axyl-nvim
 picom
 dunst
 udiskie
-lxdm-gtk3
 alacritty
 adapta-gtk-theme
 neofetch
