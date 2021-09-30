@@ -105,7 +105,6 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
 wireless_tools
@@ -137,21 +136,40 @@ axyl-dmenu
 axyl-fonts
 axyl-vim
 axyl-nvim
-picom
-dunst
-udiskie
 alacritty
-adapta-gtk-theme
+htop
+gtop
 neofetch
-papirus-icon-theme
+cowfortune
 fish
-dex
 libxinerama
 make
 
 #######################################################
 ###                    EXTRAS                       ###
 #######################################################
+
+#################
+#### Theming ####
+#################
+adapta-gtk-theme
+arc-gtk-theme
+papirus-icon-theme
+
+###################
+#### Utilities ####
+###################
+udiskie
+dunst
+picom
+lxappearance
+xfce4-settings
+xfce4-power-manager
+
+#####################
+#### Virtual Box ####
+#####################
+virtualbox-guest-utils
 
 ###############
 #### Other ####
@@ -168,18 +186,8 @@ os-prober
 ########################
 ##### Xorg Packages ####
 ########################
-xorg-server
-xorg-xbacklight
-xorg-fonts-misc
-xorg-xfd
-xorg-xkill
-xorg-xrandr
-xorg-xrdb
-xorg-xset
-xorg-xev
-xorg-xmodmap
-xorg-xwininfo
-xorg-xsetroot
+xorg
+xorg-xinit
 
 #####################################
 ##### GPU Drivers (Intel/AMD/VM) #### 
@@ -255,7 +263,6 @@ viewnior
 #### Multimedia ####
 ####################
 ffmpeg
-vlc
 
 ######################
 #### Text Editors ####
@@ -269,12 +276,6 @@ vim
 noto-fonts
 terminus-font
 ttf-dejavu
-
-##################
-#### Plymouth ####
-##################
-plymouth
-plymouth-theme-arch10
 
 ######################
 #### AUR Packages ####
