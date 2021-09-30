@@ -131,7 +131,8 @@ sddm
 #######################################################
 
 axyl-skeleton
-axyl-qtile
+axyl-dwm
+axyl-dwmblocks
 axyl-dmenu
 axyl-fonts
 axyl-vim
