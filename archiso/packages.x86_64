@@ -130,6 +130,7 @@ sddm
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
+axyl-scripts
 axyl-skeleton
 axyl-dwm
 axyl-dwmblocks
