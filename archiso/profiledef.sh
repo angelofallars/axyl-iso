@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="axyl-os"
-iso_label="axyl-os_$(date +%Y%m)"
+iso_name="axyl"
+iso_label="axyl_$(date +%Y%m)"
 iso_publisher="Axyl OS <https://github.com/axyl-os>"
 iso_application="Axyl OS Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"
