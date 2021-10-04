@@ -124,8 +124,7 @@ zsh
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-#lxdm-gtk3
-sddm
+lxdm-gtk3
 #axyl-calamares
 #axyl-calamares-config
 
@@ -139,7 +138,7 @@ axyl-dwm
 axyl-fonts
 axyl-vim
 axyl-nvim
-#axyl-lxdm-theme
+axyl-lxdm-theme
 alacritty
 htop
 gtop
@@ -284,6 +283,12 @@ ffmpeg
 ######################
 geany
 vim
+
+##################
+#### Plymouth ####
+##################
+#plymouth
+#plymouth-theme-arch10
 
 ######################
 #### AUR Packages ####
