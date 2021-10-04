@@ -1,3 +1,7 @@
+#######################
+#### Base Packages ####
+#######################
+
 amd-ucode
 arch-install-scripts
 archinstall
@@ -18,6 +22,7 @@ dhcpcd
 diffutils
 dmraid
 dnsmasq
+dnsutils
 dosfstools
 e2fsprogs
 edk2-shell
@@ -114,14 +119,12 @@ xfsprogs
 xl2tpd
 zsh
 
-
-# everything above comes from archiso releng folder
-
 #######################################################
 ###  PACKAGES THAT ARE REMOVED AFTER INSTALLATION   ###
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
+#lxdm-gtk3
 sddm
 #axyl-calamares
 #axyl-calamares-config
@@ -138,6 +141,7 @@ axyl-dmenu
 axyl-fonts
 axyl-vim
 axyl-nvim
+#axyl-lxdm-theme
 alacritty
 htop
 gtop
@@ -189,8 +193,19 @@ os-prober
 ########################
 ##### Xorg Packages ####
 ########################
-xorg
+xorg-server
+xorg-xbacklight
+xorg-fonts-misc
+xorg-xfd
+xorg-xkill
+xorg-xrandr
+xorg-xrdb
+xorg-xset
+xorg-xev
 xorg-xinit
+xorg-xmodmap
+xorg-xwininfo
+xorg-xsetroot
 
 #####################################
 ##### GPU Drivers (Intel/AMD/VM) #### 
@@ -222,7 +237,6 @@ bmon
 inetutils
 firefox
 networkmanager
-networkmanager-openvpn
 nethogs
 nm-connection-editor
 wget
@@ -273,22 +287,14 @@ ffmpeg
 geany
 vim
 
-###############
-#### Fonts ####
-###############
-noto-fonts
-terminus-font
-ttf-dejavu
-
 ######################
 #### AUR Packages ####
 ######################
 networkmanager-dmenu-git
 j4-dmenu-desktop
 i3lock-color
+ksuperkey
 xfce-polkit
 unimatrix-git
 shell-color-scripts
-cava
-tty-clock
 yay
