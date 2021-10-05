@@ -124,30 +124,20 @@ zsh
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-lxdm-gtk3
 #axyl-calamares
 #axyl-calamares-config
 
-#######################################################
-###      PACKAGES THAT STAY AFTER INSTALLATION      ###
-#######################################################
-
+#######################
+#### Axyl Packages ####
+#######################
 axyl-scripts
 axyl-skeleton
 axyl-dwm
+axyl-qtile
 axyl-fonts
 axyl-vim
 axyl-nvim
 axyl-lxdm-theme
-alacritty
-htop
-gtop
-gpick
-neofetch
-cowfortune
-fish
-libxinerama
-make
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -180,6 +170,16 @@ virtualbox-guest-utils
 ###############
 base-devel
 linux-headers
+lxdm-gtk3
+alacritty
+htop
+gtop
+gpick
+neofetch
+cowfortune
+fish
+libxinerama
+make
 
 ##############
 #### Grub ####
@@ -199,7 +199,6 @@ xorg-xrandr
 xorg-xrdb
 xorg-xset
 xorg-xev
-xorg-xinit
 xorg-xmodmap
 xorg-xwininfo
 xorg-xsetroot
