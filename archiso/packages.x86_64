@@ -287,8 +287,7 @@ vim
 ##################
 #### Plymouth ####
 ##################
-#plymouth
-#plymouth-theme-arch10
+plymouth
 
 ######################
 #### AUR Packages ####
