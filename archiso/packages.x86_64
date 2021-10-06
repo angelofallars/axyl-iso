@@ -132,6 +132,8 @@ axyl-calamares-config
 #######################
 #### Axyl Packages ####
 #######################
+axyl-grub-theme
+axyl-lxdm-theme
 axyl-scripts
 axyl-skeleton
 axyl-dwm
@@ -139,7 +141,6 @@ axyl-qtile
 axyl-fonts
 axyl-vim
 axyl-nvim
-axyl-lxdm-theme
 
 #######################################################
 ###                    EXTRAS                       ###
