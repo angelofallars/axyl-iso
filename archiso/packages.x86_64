@@ -11,6 +11,7 @@ bind-tools
 brltty
 broadcom-wl
 btrfs-progs
+ckbcomp
 clonezilla
 cloud-init
 crda
@@ -66,6 +67,7 @@ memtest86+
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
+mkinitcpio-openswap
 modemmanager
 mtools
 nano
@@ -124,8 +126,8 @@ zsh
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-#axyl-calamares
-#axyl-calamares-config
+axyl-calamares
+axyl-calamares-config
 
 #######################
 #### Axyl Packages ####
@@ -153,6 +155,7 @@ papirus-icon-theme
 ###################
 #### Utilities ####
 ###################
+gpick
 udiskie
 dunst
 picom
@@ -170,6 +173,7 @@ virtualbox-guest-utils
 ###############
 base-devel
 linux-headers
+xdg-utils
 lxdm-gtk3
 alacritty
 htop
