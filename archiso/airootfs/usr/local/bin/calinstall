@@ -1,0 +1,8 @@
+#!/bin/env bash
+
+wget -q --tries=10 --timeout=20 --spider https://github.com
+if [[ $? -eq 0 ]]; then
+    devour sudo calamares
+else
+    notify-send -a "Axyl OS Installer" -t 10000 "Installer cannot continue without an internet connection."
+fi

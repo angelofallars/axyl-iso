@@ -50,7 +50,7 @@ A minimal Arch-based GNU/Linux Distribution
 | `S + B`                | Toggle Bar                               |
 | `S + [J,K]`            | Focus Next/Previous Client               |
 | `S + [H,L]`            | Set Stack Size                           |
-| `S + [T,F,M]`          | Set Client Layout to [Tiled,Full,Monocle]|
+| `S + [T,F,M]`          | Set Client Layout to [Tiled,Floating,Monocle]|
 | `S + Space`            | Cycle Layouts                            |
 | `S + Shft + Space`     | Toggle Floating                          |
 
