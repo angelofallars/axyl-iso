@@ -22,9 +22,10 @@ echo "Setting editor to vim"
 echo "#################################"
 echo "EDITOR=vim" >> /etc/profile
 
-# updating grub
+# copying grub theme & updating grub
 echo "Updating grub"
 echo "#################################"
+cp -rf /usr/share/grub/themes/axyl /boot/grub/themes/
 update-grub
 
 #Original cleanup
@@ -43,4 +44,5 @@ chmod -v 750 /root
 echo "#################################"
 echo "End axyl-final"
 echo "#################################"
+rm -f /usr/local/bin/calinstall
 rm /usr/local/bin/axyl-final
