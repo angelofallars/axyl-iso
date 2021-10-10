@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+echo "#################################"
+echo "Start axyl-before"
+echo "#################################"
+
+echo "Populate Core Team keys"
+echo "#################################"
+pacman-key --init
+pacman-key --populate
+
+echo "#################################"
+echo "End axyl-before"
+echo "#################################"
+rm /usr/local/bin/axyl-before
