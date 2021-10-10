@@ -215,19 +215,19 @@ xorg-xsetroot
 #####################################
 ##### GPU Drivers (Intel/AMD/VM) #### 
 #####################################
-xf86-video-fbdev
-xf86-video-vesa
-xf86-video-intel
-xf86-video-amdgpu
-xf86-video-ati
+#xf86-video-fbdev
+#xf86-video-vesa
+#xf86-video-intel
+#xf86-video-nouveau
+#xf86-video-amdgpu
+#xf86-video-ati
 
 ##############################
 #### GPU Drivers (Nvidia) ####
 ##############################
-xf86-video-nouveau
-nvidia
-nvidia-utils
-nvidia-settings
+#nvidia
+#nvidia-utils
+#nvidia-settings
 
 ##########################
 #### Touchpad & Mouse ####
@@ -258,6 +258,7 @@ pulseaudio-bluetooth
 ###############
 #### Sound ####
 ###############
+portaudio
 alsa-plugins
 alsa-tools
 alsa-utils
@@ -296,6 +297,7 @@ vim
 #### Plymouth ####
 ##################
 plymouth
+plymouth-theme-arch10
 
 ######################
 #### AUR Packages ####
@@ -304,6 +306,8 @@ networkmanager-dmenu-git
 j4-dmenu-desktop
 i3lock-color
 ksuperkey
+cava
+tty-clock
 xfce-polkit
 unimatrix-git
 shell-color-scripts
