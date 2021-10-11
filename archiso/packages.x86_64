@@ -178,7 +178,6 @@ virtualbox-guest-utils
 ###############
 base-devel
 linux-headers
-archlinux-keyring
 xdg-utils
 lxdm-gtk3
 alacritty
@@ -212,23 +211,6 @@ xorg-xev
 xorg-xmodmap
 xorg-xwininfo
 xorg-xsetroot
-
-#####################################
-##### GPU Drivers (Intel/AMD/VM) #### 
-#####################################
-#xf86-video-fbdev
-#xf86-video-vesa
-#xf86-video-intel
-#xf86-video-nouveau
-#xf86-video-amdgpu
-#xf86-video-ati
-
-##############################
-#### GPU Drivers (Nvidia) ####
-##############################
-#nvidia
-#nvidia-utils
-#nvidia-settings
 
 ##########################
 #### Touchpad & Mouse ####
