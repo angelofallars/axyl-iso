@@ -178,6 +178,7 @@ virtualbox-guest-utils
 ###############
 base-devel
 linux-headers
+archlinux-keyring
 xdg-utils
 lxdm-gtk3
 alacritty
