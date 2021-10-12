@@ -132,15 +132,15 @@ axyl-calamares-config
 #######################
 #### Axyl Packages ####
 #######################
+axyl-dwm
+axyl-fonts
 axyl-grub-theme
 axyl-lxdm-theme
+axyl-nvim
+axyl-qtile
 axyl-scripts
 axyl-skeleton
-axyl-dwm
-axyl-qtile
-axyl-fonts
 axyl-vim
-axyl-nvim
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -156,17 +156,17 @@ papirus-icon-theme
 ###################
 #### Utilities ####
 ###################
-exa
-sxhkd
-xclip
-maim
-gpick
-udiskie
 dunst
-picom
+exa
+gpick
 lxappearance
-xfce4-settings
+maim
+picom
+sxhkd
+udiskie
+xclip
 xfce4-power-manager
+xfce4-settings
 
 #####################
 #### Virtual Box ####
@@ -176,19 +176,20 @@ virtualbox-guest-utils
 ###############
 #### Other ####
 ###############
-base-devel
-linux-headers
-xdg-utils
-lxdm-gtk3
 alacritty
-htop
-gtop
-gpick
-neofetch
+archlinux-keyring
+base-devel
 cowfortune
 fish
+gpick
+gtop
+htop
 libxinerama
+linux-headers
+lxdm-gtk3
 make
+neofetch
+xdg-utils
 
 ##############
 #### Grub ####
@@ -199,24 +200,24 @@ os-prober
 ########################
 ##### Xorg Packages ####
 ########################
+xorg-fonts-misc
 xorg-server
 xorg-xbacklight
-xorg-fonts-misc
+xorg-xev
 xorg-xfd
 xorg-xkill
+xorg-xmodmap
 xorg-xrandr
 xorg-xrdb
 xorg-xset
-xorg-xev
-xorg-xmodmap
-xorg-xwininfo
 xorg-xsetroot
+xorg-xwininfo
 
 ##########################
 #### Touchpad & Mouse ####
 ##########################
-xorg-xinput
 xf86-input-libinput
+xorg-xinput
 
 #########################################
 #### Networking Tools & Applications ####
@@ -233,19 +234,19 @@ curl
 ###################
 #### Bluetooth ####
 ###################
+blueman
 bluez
 bluez-utils
-blueman
 pulseaudio-bluetooth
 
 ###############
 #### Sound ####
 ###############
-portaudio
 alsa-plugins
 alsa-tools
 alsa-utils
 pavucontrol
+portaudio
 pulseaudio
 pulseaudio-alsa
 pulseaudio-equalizer-ladspa
@@ -254,8 +255,8 @@ pulseaudio-equalizer-ladspa
 #### Files ####
 ###############
 ranger
-ueberzug
 thunar
+ueberzug
 xdg-user-dirs
 
 ################
@@ -285,14 +286,14 @@ plymouth-theme-arch10
 ######################
 #### AUR Packages ####
 ######################
-networkmanager-dmenu-git
-j4-dmenu-desktop
-i3lock-color
-ksuperkey
 cava
-tty-clock
-xfce-polkit
-unimatrix-git
-shell-color-scripts
 devour
+i3lock-color
+j4-dmenu-desktop
+ksuperkey
+networkmanager-dmenu-git
+shell-color-scripts
+tty-clock
+unimatrix-git
+xfce-polkit
 yay
