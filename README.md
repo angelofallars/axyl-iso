@@ -1,4 +1,13 @@
-<h1 align="center">Axyl OS</h1>
+<p align="center">
+<a href="https://axyl-os.github.io" target="_blank"><img src="https://avatars.githubusercontent.com/u/91398141?s=200&v=4"/></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-Green?style=flat-square">
+  <img src="https://img.shields.io/github/downloads/axyl-os/axyl-iso/total?label=downloads&logo=github&color=blue&style=flat-square">
+  <img src="https://img.shields.io/github/stars/axyl-os/axyl-iso?style=flat-square">
+  <img src="https://img.shields.io/github/issues/axyl-os/axyl-iso?color=violet&style=flat-square">
+</p>
 
 ## Table of Contents
 
