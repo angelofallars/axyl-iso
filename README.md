@@ -25,10 +25,9 @@ A minimal Arch-based GNU/Linux Distribution
 
 <a id="gal"></a>
 ## Gallery 📷
-![img](https://cdn.discordapp.com/attachments/891886464013566012/893031310786961438/Screenshot_2021-09-30-02-58-01_3840x1080.png)
-![img](https://cdn.discordapp.com/attachments/891886464013566012/893031318315737118/Screenshot_2021-09-30-02-58-23_3840x1080.png)
-![img](https://cdn.discordapp.com/attachments/891886464013566012/893031321234976788/Screenshot_2021-09-30-02-59-53_3840x1080.png)
-
+DWM|Qtile
+--|--
+![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/src/img/axyl-dwm.gif)|![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/src/img/axyl-qtile.gif)
 
 <a id="keybinds"></a>
 ## Global Keybinds ✍️
