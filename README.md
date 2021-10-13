@@ -9,18 +9,17 @@
   <img src="https://img.shields.io/github/issues/axyl-os/axyl-iso?color=violet&style=flat-square">
 </p>
 
+<p align="center">
+Introducing a new minimal Arch-based GNU/Linux Distribution
+</p>
+
 ## Table of Contents
 
-- [About ⁉️](#about)
 - [Gallery 📷](#gal)
 - [Global Keybinds ✍️](#keybinds)
     - [dwm Keybinds](#dwmkeys)
     - [Qtile Keybinds](#qtilekeys)
 - [How To Install ⁉️](#install)
-
-
-<a id="about"></a>
-A minimal Arch-based GNU/Linux Distribution
 
 
 <a id="gal"></a>
