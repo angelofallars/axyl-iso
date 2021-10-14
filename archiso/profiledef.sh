@@ -3,8 +3,8 @@
 
 iso_name="axyl"
 iso_label="axyl_$(date +%Y%m)"
-iso_publisher="Axyl OS <https://github.com/axyl-os>"
-iso_application="Axyl OS Live/Rescue CD"
+iso_publisher="Axyl <https://github.com/axyl-os>"
+iso_application="Axyl Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"
 install_dir="arch"
 buildmodes=('iso')
