@@ -132,7 +132,6 @@ axyl-calamares-config
 #######################
 #### Axyl Packages ####
 #######################
-axyl-dwm
 axyl-fonts
 axyl-grub-theme
 axyl-lxdm-theme
