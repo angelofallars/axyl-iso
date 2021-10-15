@@ -39,6 +39,7 @@ DWM|Qtile
 | ---------------------- | ---------------------------------------- |
 | `S + [1..7]`           | Switches to Workspace 1 to 7             |
 | `S + Shft + [1..7]`    | Move Apps/Windows to Workspace 1 to 7    |
+| `Ctrl + X`             | Launch Powermenu                         |
 | `S + Enter`            | Launch Terminal (Alacritty)              |
 | `S + C`                | Close window                             |
 | `S`                    | Launch j4-dmenu-desktop                  |
@@ -50,6 +51,9 @@ DWM|Qtile
 | `S + Shft + W`         | Launch Firefox                           |
 | `S + Shft + F`         | Launch Thunar                            |
 | `S + Shft + R`         | Ranger Quick Launch                      |
+| `PrtSc`                | Screenshot                               |
+| `Ctrl + PtrSc`         | Screenshot Active Window                 |
+| `Ctrl + Alt + PrtSc`   | Screenshot Selected Area                 |
 
 
 <a id="dwmkeys"></a>
