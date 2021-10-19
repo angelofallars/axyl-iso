@@ -132,6 +132,9 @@ axyl-calamares-config
 #######################
 #### Axyl Packages ####
 #######################
+axyl-dmenu
+axyl-dwm
+axyl-dwmblocks
 axyl-fonts
 axyl-grub-theme
 axyl-lxdm-theme
@@ -166,6 +169,23 @@ udiskie
 xclip
 xfce4-power-manager
 xfce4-settings
+
+#######################################
+#### AMD/Intel/VM Graphics Drivers ####
+#######################################
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-intel
+xf86-video-fbdev
+xf86-video-nouveau
+xf86-video-vesa
+
+########################
+#### Nvidia Drivers ####
+########################
+nvidia
+nvidia-utils
+nvidia-settings
 
 #####################
 #### Virtual Box ####
