@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://axyl-os.github.io" target="_blank"><img src="https://avatars.githubusercontent.com/u/91398141?s=200&v=4"/></a>
+<a href="https://axyl-os.github.io" target="_blank"><img src="archiso/airootfs/usr/share/axyl.png" width="200px" height="auto"/></a>
 </p>
 
 <p align="center">
