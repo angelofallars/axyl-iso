@@ -132,14 +132,15 @@ axyl-calamares-config
 #######################
 #### Axyl Packages ####
 #######################
+axyl-bspwm
 axyl-dmenu
-axyl-dwm
-axyl-dwmblocks
+#axyl-dwm
+#axyl-dwmblocks
 axyl-fonts
 axyl-grub-theme
 axyl-lxdm-theme
 axyl-nvim
-axyl-qtile
+#axyl-qtile
 axyl-scripts
 axyl-skeleton
 axyl-vim
@@ -166,6 +167,7 @@ maim
 picom
 sxhkd
 udiskie
+unzip
 xclip
 xfce4-power-manager
 xfce4-settings
@@ -207,7 +209,7 @@ libxinerama
 linux-headers
 lxdm-gtk3
 make
-neofetch
+polybar
 xdg-utils
 
 ##############

@@ -1,0 +1,9 @@
+NAME="Axyl"
+PRETTY_NAME="Axyl"
+ID=axyl
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://axyl-os.github.io/"
+LOGO=axyl
+IMAGE_ID=axyl
+IMAGE_VERSION=2021.10.27
