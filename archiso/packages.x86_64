@@ -142,6 +142,7 @@ axyl-grub-theme
 axyl-lxdm-theme
 axyl-nvim
 #axyl-qtile
+#axyl-xmonad
 axyl-scripts
 axyl-skeleton
 axyl-vim
