@@ -132,6 +132,7 @@ axyl-calamares-config
 #######################
 #### Axyl Packages ####
 #######################
+axyl-release
 axyl-bspwm
 axyl-dmenu
 #axyl-dwm
