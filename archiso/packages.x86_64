@@ -161,6 +161,7 @@ papirus-icon-theme
 ###################
 #### Utilities ####
 ###################
+conky
 dunst
 exa
 gpick
