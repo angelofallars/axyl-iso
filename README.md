@@ -105,7 +105,7 @@ Qtile|Xmonad
 | `Super + [H,L,J,K]`        | Switch Focus to [Left,Down,Right,Up]     |
 | `Super + Shft + [H,L,J,K]` | Move Windows to [Left,Down,Right,Up]     |
 | `Super + Ctrl + [H,L,J,K]` | Grow Apps/Windows                        |
-| `Super + Shft + Enter`     | Toggle Split & Unsplit Sides of Stack    |
+| `Super + Ctrl + Enter`     | Toggle Split & Unsplit Sides of Stack    |
 | `Super + Tab`              | Toggle Between Layouts                   |
 
 
@@ -130,8 +130,8 @@ Qtile|Xmonad
 
 |        Keybind         |                 Function                 |
 | ---------------------- | ---------------------------------------- |
-| `Super + Ctrl + T`         | Increase Left Side Gaps                  |
-| `Super + Shft + T`         | Decrease Left Side Gaps                  |
+| `Super + Ctrl + O`         | Increase Left Side Gaps                  |
+| `Super + Shft + O`         | Decrease Left Side Gaps                  |
 | `Super + Ctrl + Y`         | Increase Upper Gaps                      |
 | `Super + Shft + Y`         | Decrease Upper Gaps                      |
 | `Super + Ctrl + U`         | Increase Bottom Gaps                     |
