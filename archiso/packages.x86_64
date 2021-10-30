@@ -154,9 +154,17 @@ axyl-vim
 #################
 #### Theming ####
 #################
+kvantum-qt5
+qt5ct
 adapta-gtk-theme
 arc-gtk-theme
 papirus-icon-theme
+
+###############
+#### Fonts ####
+###############
+ttf-dejavu
+ttf-liberation
 
 ###################
 #### Utilities ####
