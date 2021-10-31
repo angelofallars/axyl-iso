@@ -169,6 +169,7 @@ ttf-liberation
 ###################
 #### Utilities ####
 ###################
+acpi
 conky
 dunst
 exa
@@ -227,6 +228,7 @@ xdg-utils
 #### Grub ####
 ##############
 grub
+lsb-release
 os-prober
 
 ########################
