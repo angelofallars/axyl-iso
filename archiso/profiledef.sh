@@ -21,6 +21,7 @@ file_permissions=(
   ["/root/.automated_script.sh"]="0:0:755"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/calinstall"]="0:0:755"
+  ["/usr/local/bin/calinstall-debug"]="0:0:755"
   ["/usr/local/bin/axyl-before"]="0:0:755"
   ["/usr/local/bin/axyl-final"]="0:0:755"
   ["/usr/local/bin/remove-nvidia"]="0:0:755"
