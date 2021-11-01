@@ -311,12 +311,6 @@ ffmpeg
 geany
 vim
 
-##################
-#### Plymouth ####
-##################
-plymouth
-plymouth-theme-arch10
-
 ######################
 #### AUR Packages ####
 ######################
