@@ -292,3 +292,7 @@ echo "- Check your out folder :"$outFolder
 tput sgr0
 echo "################################################################## "
 echo
+
+if [[ -f "$HOME/Axyl-Iso/axyl-$(date +%Y.%m.%d)-x86_64.iso" ]]; then
+  notify-send -a "Build Axyl iso" -t 10000 "Axyl Iso has finished building..."
+fi
