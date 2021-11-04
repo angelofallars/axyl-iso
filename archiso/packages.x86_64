@@ -224,6 +224,7 @@ lxdm-gtk3
 make
 polybar
 xdg-utils
+xdotool
 
 ##############
 #### Grub ####
@@ -305,6 +306,7 @@ viewnior
 #### Multimedia ####
 ####################
 ffmpeg
+ffmpegthumbnailer
 
 ######################
 #### Text Editors ####
