@@ -29,10 +29,10 @@ echo
 	#echo "Building the desktop                   : "$desktop
 	#echo "Building version                       : "$arcolinuxVersion
 	#echo "Iso label                              : "$isoLabel
-	echo "Do you have the right archiso version? : "$archisoVersion
-	echo "What is the required archiso version?  : "$archisoRequiredVersion
-	echo "Build folder                           : "$buildFolder
-	echo "Out folder                             : "$outFolder
+	echo "Do you have the right archiso version? : $archisoVersion"
+	echo "What is the required archiso version?  : $archisoRequiredVersion"
+	echo "Build folder                           : $buildFolder"
+	echo "Out folder                             : $outFolder"
 	echo "################################################################## "
 
 	if [ "$archisoVersion" == "$archisoRequiredVersion" ]; then
@@ -96,13 +96,13 @@ echo
 		if pacman -Qi $package &> /dev/null; then
 
 			echo "################################################################"
-			echo "#########  "$package" has been installed"
+			echo "#########  $package has been installed"
 			echo "################################################################"
 
 		else
 
 			echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-			echo "!!!!!!!!!  "$package" has NOT been installed"
+			echo "!!!!!!!!!  $package has NOT been installed"
 			echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 			exit 1
 		fi
@@ -127,12 +127,12 @@ echo "################################################################## "
 echo
 
 	echo "Deleting the build folder if one exists - takes some time"
-	[ -d $buildFolder ] && sudo rm -rf $buildFolder
+	[ -d "$buildFolder" ] && sudo rm -rf "$buildFolder"
 	echo
 	echo "Copying the Archiso folder to build work"
 	echo
-	mkdir $buildFolder
-	cp -r ../archiso $buildFolder/archiso
+	mkdir "$buildFolder"
+	cp -r ../archiso "$buildFolder"/archiso
 
 # echo
 # echo "################################################################## "
@@ -235,9 +235,8 @@ tput sgr0
 echo "################################################################## "
 echo
 
-	[ -d $outFolder ] || mkdir $outFolder
-	cd $buildFolder/archiso/
-	sudo mkarchiso -v -w $buildFolder -o $outFolder $buildFolder/archiso/
+	[ -d "$outFolder" ] || mkdir "$outFolder"
+	(cd "$buildFolder"/archiso/ && sudo mkarchiso -v -w "$buildFolder" -o "$outFolder" "$buildFolder"/archiso/)
 
 
 
@@ -269,7 +268,7 @@ echo
  	echo "Moving pkglist.x86_64.txt"
  	echo "########################"
 	rename=$(date +%Y-%m-%d)
- 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/archlinux-$rename-pkglist.txt
+ 	cp "$buildFolder"/iso/arch/pkglist.x86_64.txt  "$outFolder"/archlinux-"$rename"-pkglist.txt
 
 
 #echo
@@ -288,7 +287,7 @@ echo
 echo "##################################################################"
 tput setaf 2
 echo "DONE"
-echo "- Check your out folder :"$outFolder
+echo "- Check your out folder : $outFolder"
 tput sgr0
 echo "################################################################## "
 echo
