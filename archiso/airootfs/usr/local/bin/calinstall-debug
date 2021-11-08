@@ -1,9 +1,8 @@
 #!/bin/env bash
 
-wget -q --tries=10 --timeout=20 --spider https://github.com
-if [[ $? -eq 0 ]]; then
+if wget -q --tries=10 --timeout=20 --spider https://github.com; then
     bspc rule -a calamares state=floating follow=on focus=on
-    devour alacritty --config-file $HOME/.config/bspwm/alacritty/alacritty.yml -e sudo -E calamares -d
+    devour alacritty --config-file "$HOME/.config/bspwm/alacritty/alacritty.yml" -e sudo -E calamares -d
 else
     notify-send -a "Axyl OS Installer" -t 10000 "Installer cannot continue without an internet connection."
 fi

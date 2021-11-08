@@ -2,10 +2,11 @@
 # driver=free or driver=nonfree - grub and efi
 echo "Start axyl-remove-nvidia"
 kernel_cmdline(){
-	for param in $(cat /proc/cmdline); do
-		case "${param}" in
-			$1=*) echo "${param##*=}"; return 0 ;;
-			$1) return 0 ;;
+        cmline=$(cat /proc/cmdline)
+	for param in $cmline; do
+		case "$param" in
+			"$1"=*) echo "${param##*=}"; return 0 ;;
+			"$1") return 0 ;;
 			*) continue ;;
 		esac
 	done
@@ -14,17 +15,17 @@ kernel_cmdline(){
 }
 
 get_driver(){
-	echo $(kernel_cmdline driver)
+	kernel_cmdline driver
 }
 
 get_virtmach(){
-	echo $(kernel_cmdline virtmach)
+	kernel_cmdline virtmach
 }
 
 while [ -e "/var/lib/pacman/db.lck" ];
 do
     echo 'Pacman is not ready yet. Will try again in 10 seconds.'
-    seconds=$(($seconds + 10))
+    seconds=$($seconds + 10)
     sleep 10
     if [[ "$seconds" == "30" ]]; then
         echo 'Warning: removing pacman db.lck!'
@@ -35,7 +36,7 @@ done
 # free = remove nvidia keep nouveau
 selection=$(get_driver)
 echo "#################################"
-echo "Selection was "$selection
+echo "Selection was $selection"
 echo "#################################"
 if [[ $selection == "free" ]]; then
 	pacman -R --noconfirm nvidia nvidia-utils nvidia-settings
@@ -44,7 +45,7 @@ fi
 #freenonouveau = remove nvidia and nouveau
 selection=$(get_driver)
 echo "#################################"
-echo "Selection was "$selection
+echo "Selection was $selection"
 echo "#################################"
 if [[ $selection == "freenonouveau" ]]; then
 	pacman -R --noconfirm nvidia nvidia-utils nvidia-settings
@@ -53,7 +54,7 @@ fi
 
 #nonfree = keepin nvidia and nouveau
 selection=$(get_driver)
-echo "Selection was "$selection
+echo "Selection was $selection"
 if [[ $selection == "nonfree" ]]; then
 	echo "#################################"
 	echo "We keep nvidia and nouveau onboard"
@@ -63,7 +64,7 @@ fi
 # nonfreenonouveau : keep nvidia and remove nouveau
 selection=$(get_driver)
 echo "#################################"
-echo "Selection was "$selection
+echo "Selection was $selection"
 echo "#################################"
 if [[ $selection == "nonfreenonouveau" ]]; then
 	pacman -R --noconfirm xf86-video-nouveau
@@ -72,7 +73,7 @@ fi
 # remove virtual machines
 selection=$(get_virtmach)
 echo "#################################"
-echo "Selection was "$selection
+echo "Selection was $selection"
 echo "#################################"
 if [[ $selection == "none" ]]; then
 
