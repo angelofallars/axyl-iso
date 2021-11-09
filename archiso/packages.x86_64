@@ -134,16 +134,12 @@ axyl-welcome
 #### Axyl Packages ####
 #######################
 axyl-release
-axyl-bspwm
 axyl-dmenu
-#axyl-dwm
-#axyl-dwmblocks
+axyl-i3wm
 axyl-fonts
 axyl-grub-theme
 axyl-lxdm-theme
 axyl-nvim
-#axyl-qtile
-#axyl-xmonad
 axyl-scripts
 axyl-skeleton
 axyl-vim
