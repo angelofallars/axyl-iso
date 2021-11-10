@@ -21,8 +21,8 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 58-2"
-	buildFolder=$HOME"/Axyl-Build"
-	outFolder=$HOME"/Axyl-Iso"
+    buildFolder=$(pwd)"/Axyl-Build"
+    outFolder=$(pwd)"/Axyl-Iso"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
@@ -292,6 +292,6 @@ tput sgr0
 echo "################################################################## "
 echo
 
-if [[ -f "$HOME/Axyl-Iso/axyl-$(date +%Y.%m.%d)-x86_64.iso" ]]; then
+if [[ -f "$(pwd)/Axyl-Iso/axyl-$(date +%Y.%m.%d)-x86_64.iso" ]]; then
   notify-send -a "Build Axyl iso" -t 10000 "Axyl Iso has finished building..."
 fi
