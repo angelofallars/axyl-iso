@@ -18,3 +18,6 @@ jobs:
 
     - name: Build the iso
       run: bash ./installation-scripts/build.sh
+
+    - name: Check if the iso exists
+      run: ls /github/home/Axyl-Iso
