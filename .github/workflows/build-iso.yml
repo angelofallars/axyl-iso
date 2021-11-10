@@ -13,8 +13,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Update the system
-      run: pacman -Syu --noconfirm --needed
+    - name: Update and install archiso
+      run: pacman -Syu archiso --noconfirm --needed
 
     - name: Build the iso
       run: bash ./installation-scripts/build.sh
