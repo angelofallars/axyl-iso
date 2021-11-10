@@ -1,0 +1,20 @@
+on: [push, pull_request]
+
+name: 'Build the Axyl ISO'
+
+jobs:
+  build-iso:
+
+    runs-on: ubuntu-latest
+    container:
+      image: archlinux
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Update the system
+      run: sudo pacman -Syu
+
+    - name: Build the iso
+      run: bash ./installation-scripts/build.sh
