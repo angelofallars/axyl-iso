@@ -20,4 +20,4 @@ jobs:
       run: bash ./installation-scripts/build.sh
 
     - name: Check if the iso exists
-      run: ls /github/home/Axyl-Iso
+      run: ls /github/home/Axyl-Iso | grep -G axyl
