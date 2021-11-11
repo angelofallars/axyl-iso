@@ -135,8 +135,8 @@ axyl-welcome
 #######################
 axyl-release
 axyl-dmenu
-axyl-i3wm
 axyl-fonts
+axyl-i3wm
 axyl-grub-theme
 axyl-lxdm-theme
 axyl-nvim
@@ -286,6 +286,7 @@ pulseaudio-equalizer-ladspa
 ###############
 #### Files ####
 ###############
+ncdu
 ranger
 thunar
 ueberzug
@@ -319,8 +320,8 @@ i3lock-color
 j4-dmenu-desktop
 ksuperkey
 networkmanager-dmenu-git
+paru-bin
 shell-color-scripts
 tty-clock
 unimatrix-git
 xfce-polkit
-paru-bin
