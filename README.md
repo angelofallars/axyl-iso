@@ -17,6 +17,14 @@
 Introducing a new minimal Arch-based GNU/Linux Distribution
 </p>
 
+<p align="center">
+<a href="https://github.com/axyl-os/axyl-iso/releases">Download Now!</a>
+</p>
+
+<p align="center">
+<a href="https://discord.gg/qAXMkQdwjj">Join our Discord Server</a>
+</p>
+
 ## Table of Contents
 
 - [Gallery 📷](#gal)
