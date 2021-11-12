@@ -13,16 +13,31 @@
   <img src="https://img.shields.io/github/issues/axyl-os/axyl-iso?color=violet&style=flat-square">
 </p>
 
+<h1 align="center">
+  Welcome to Axyl.
+</h1>
+
 <p align="center">
-Introducing a new minimal Arch-based GNU/Linux Distribution
+Introducing a new minimal Linux distro for tiling window managers.<br>
+Level up your productivity with i3, bspwm, dwm and more.
 </p>
 
 <p align="center">
-<a href="https://github.com/axyl-os/axyl-iso/releases">Download Now!</a>
+  <a href="https://github.com/axyl-os/axyl-iso/releases">
+    <img src="https://img.shields.io/badge/Download_Now!-h?color=1B5488&style=for-the-badge">
+  </a>
 </p>
 
 <p align="center">
-<a href="https://discord.gg/qAXMkQdwjj">Join our Discord Server</a>
+  <a href="https://axyl-os.github.io/">
+    <img src="https://img.shields.io/badge/Learn_More-h?color=1B5488&style=for-the-badge">
+  </a>
+</p>
+
+<p align="center">
+<a href="https://discord.gg/qAXMkQdwjj">
+  <img src="https://img.shields.io/badge/JOIN_THE_AXYL_SERVER-%235F73B6.svg?style=for-the-badge&logo=discord&logoColor=white">
+ </a>
 </p>
 
 ## Table of Contents
