@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Maintained%3F-Yes-Green?style=flat-square">
-  <img src="https://img.shields.io/github/downloads/axyl-os/axyl-iso/total?label=downloads&logo=github&color=blue&style=flat-square">
-  <img src="https://img.shields.io/github/stars/axyl-os/axyl-iso?style=flat-square">
-  <img src="https://img.shields.io/github/issues/axyl-os/axyl-iso?color=violet&style=flat-square">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-AF4E57?style=flat-square">
+  <img src="https://img.shields.io/github/downloads/axyl-os/axyl-iso/total?label=downloads&logo=github&color=6EA340&style=flat-square">
+  <img src="https://img.shields.io/github/stars/axyl-os/axyl-iso?color=4C87C1&style=flat-square">
+  <img src="https://img.shields.io/github/issues/axyl-os/axyl-iso?color=9A598E&style=flat-square">
 </p>
 
 <h1 align="center">
@@ -18,13 +18,13 @@
 </h1>
 
 <p align="center">
-Introducing a new minimal Linux distro for tiling window managers.<br>
-Level up your productivity with i3, bspwm, dwm and more.
+Introducing a new minimal Arch Linux-based distro.<br>
+Axyl focuses fully on tiling WMs. Level up your productivity with i3, bspwm, dwm and more.
 </p>
 
 <p align="center">
   <a href="https://github.com/axyl-os/axyl-iso/releases">
-    <img src="https://img.shields.io/badge/Download_Now!-h?color=1B5488&style=for-the-badge">
+    <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/download-now.svg" height=55px>
   </a>
 </p>
 
@@ -32,12 +32,9 @@ Level up your productivity with i3, bspwm, dwm and more.
   <a href="https://axyl-os.github.io/">
     <img src="https://img.shields.io/badge/Learn_More-h?color=1B5488&style=for-the-badge">
   </a>
-</p>
-
-<p align="center">
-<a href="https://discord.gg/qAXMkQdwjj">
-  <img src="https://img.shields.io/badge/JOIN_THE_AXYL_SERVER-%235F73B6.svg?style=for-the-badge&logo=discord&logoColor=white">
- </a>
+  <a href="https://discord.gg/qAXMkQdwjj">
+    <img src="https://img.shields.io/badge/JOIN_THE_AXYL_SERVER-%235F73B6.svg?style=for-the-badge&logo=discord&logoColor=white">
+  </a>
 </p>
 
 ## Table of Contents
