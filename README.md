@@ -47,34 +47,37 @@ Axyl focuses fully on tiling WMs. Level up your productivity with i3, bspwm, dwm
 
 ## Contents
 
-- [At First Glance 📷](#gal)
-- [Installation](#install)
-- [Getting Help](#techsupport)
-- [Global Keybinds ✍️](#keybinds)
-    - [dwm Keybinds](#dwmkeys)
-    - [Qtile Keybinds](#qtilekeys)
+- [📷 At First Glance](#gal)
+- [🎁 Installation](#install)
+- [❓ Getting Help](#techsupport)
+- [✍️ Global Keybinds](#keybinds)
     - [BSPWM Keybinds](#bspwmkeys)
+    - [dwm Keybinds](#dwmkeys)
     - [Xmonad Keybinds](#xmonadkeys)
+    - [Qtile Keybinds](#qtilekeys)
 
 <a id="gal"></a>
-## At First Glance 📷
+## 📷 At First Glance
 
-<div align=center><h3>i3 <em>(the default desktop)</em></h3></div>
+<div align=center>
+  <h3>i3 <em>(the default desktop)</em></h3>
+  <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/i3-shadows.svg" alt="i3" width=70px>
+</div>
 
 ![image](https://user-images.githubusercontent.com/39676098/141485970-bc75299d-4e08-43d6-83c0-1472b4306a90.png)
 
-BSPWM|DWM
+BSPWM <br><img src="https://axyl-os.github.io/assets/img/window-managers/bspwm.svg" alt="bspwm" width=50px>|DWM <br><img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/dwm-shadows.svg" alt="dwm" width=50px>
 --|--
 ![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-bspwm.gif)|![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-dwm.gif)
 
-Qtile|Xmonad
+Qtile|XMonad <br><img src="https://axyl-os.github.io/assets/img/window-managers/xmonad.svg" alt="XMonad" width=50px>
 --|--
 ![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-qtile.gif)|![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-xmonad.gif)
 
 <p align=center><a href="https://axyl-os.github.io">Learn More About Axyl</a></p>
 
 <a id="install"></a>
-## Installation
+## 🎁 Installation
 <img src="https://user-images.githubusercontent.com/39676098/141447471-75b2f8ee-43dd-4c0b-ac59-a3964ed618d8.png" align=right width=400px>
 
 [Download](https://github.com/axyl-os/axyl-iso/releases) the latest Axyl release from the Releases section.
@@ -97,7 +100,7 @@ Axyl offers several window managers:
 - spectrwm
 
 <a id="techsupport"></a>
-## Getting Help
+## ❓ Getting Help
 
 Axyl is built on top of Arch Linux. For documentation on [pacman](https://wiki.archlinux.org/title/Pacman), how to install packages, and other tasks refer to the [Arch Linux Wiki](https://wiki.archlinux.org/).
 
@@ -106,7 +109,7 @@ If you need help or tech support for your Axyl installation, feel free to file a
 You may also join Axyl's [Discord server](https://discord.gg/qAXMkQdwjj) to ask for tech support and general inquiries.
 
 <a id="keybinds"></a>
-## Global Keybinds ✍️
+## ✍️ Global Keybinds
 
 |        Keybind         |                 Function                 |
 | ---------------------- | ---------------------------------------- |
@@ -129,6 +132,22 @@ You may also join Axyl's [Discord server](https://discord.gg/qAXMkQdwjj) to ask 
 | `PrtSc`                | Screenshot                               |
 | `Ctrl + PtrSc`         | Screenshot Active Window                 |
 | `Ctrl + Alt + PrtSc`   | Screenshot Selected Area                 |
+
+
+<a id="bspwmkeys"></a>
+## bspwm Keybindings
+
+|        Keybind         |                 Function                 |
+| ---------------------- | ---------------------------------------- |
+| `Super + Esc`              | Reloads SXHKD Configuration              |
+| `Super + Space`            | Alternate Between Tiled & Monocle Layout |
+| `Super + Y`                | Send Newest Marked Node To The Newest Preselected Node |
+| `Super + G`                | Swap The Current Node And The Biggest Window |
+| `Super + Ctrl + [T,S,F]`   | Sets the window state                    |
+| `Super + Shft + [Left,Down,Up,Right]` | Send The Window To Another Edge Of The Screen |
+| `Alt + Tab`            | Change Focus To Next Window, Including Floating Window |
+| `Super + [Left,Down,Up,Right]` | Change Focus To Next Window, Only Tiled Windows|
+| `Super + [H,J,K,L]`        | Focus The Node in The Given Direction [West,South,North,East] |
 
 
 <a id="dwmkeys"></a>
@@ -163,34 +182,6 @@ You may also join Axyl's [Discord server](https://discord.gg/qAXMkQdwjj) to ask 
 | `Super + Shft + E`         | Restore Hidden Window                    |
 
 
-<a id="qtilekeys"></a>
-## Qtile Keybindings
-
-|        Keybind         |                 Function                 |
-| ---------------------- | ---------------------------------------- |
-| `Super + [H,L,J,K]`        | Switch Focus to [Left,Down,Right,Up]     |
-| `Super + Shft + [H,L,J,K]` | Move Windows to [Left,Down,Right,Up]     |
-| `Super + Ctrl + [H,L,J,K]` | Grow Apps/Windows                        |
-| `Super + Ctrl + Enter`     | Toggle Split & Unsplit Sides of Stack    |
-| `Super + Tab`              | Toggle Between Layouts                   |
-
-
-<a id="bspwmkeys"></a>
-## bspwm Keybindings
-
-|        Keybind         |                 Function                 |
-| ---------------------- | ---------------------------------------- |
-| `Super + Esc`              | Reloads SXHKD Configuration              |
-| `Super + Space`            | Alternate Between Tiled & Monocle Layout |
-| `Super + Y`                | Send Newest Marked Node To The Newest Preselected Node |
-| `Super + G`                | Swap The Current Node And The Biggest Window |
-| `Super + Ctrl + [T,S,F]`   | Sets the window state                    |
-| `Super + Shft + [Left,Down,Up,Right]` | Send The Window To Another Edge Of The Screen |
-| `Alt + Tab`            | Change Focus To Next Window, Including Floating Window |
-| `Super + [Left,Down,Up,Right]` | Change Focus To Next Window, Only Tiled Windows|
-| `Super + [H,J,K,L]`        | Focus The Node in The Given Direction [West,South,North,East] |
-
-
 <a id="xmonadkeys"></a>
 ## XMonad Keybindings
 
@@ -215,3 +206,15 @@ You may also join Axyl's [Discord server](https://discord.gg/qAXMkQdwjj) to ask 
 | `S + Shft + [J,K]`         | Swap the focused window with the [Next,Previous] Window |
 | `Super + [H,L]`            | [Shrink,Expand] The Master Area          |
 | `Super + [comma,period]`   | [Increment,Deincrement] the number of windows in the Master Area |
+
+
+<a id="qtilekeys"></a>
+## Qtile Keybindings
+
+|        Keybind         |                 Function                 |
+| ---------------------- | ---------------------------------------- |
+| `Super + [H,L,J,K]`        | Switch Focus to [Left,Down,Right,Up]     |
+| `Super + Shft + [H,L,J,K]` | Move Windows to [Left,Down,Right,Up]     |
+| `Super + Ctrl + [H,L,J,K]` | Grow Apps/Windows                        |
+| `Super + Ctrl + Enter`     | Toggle Split & Unsplit Sides of Stack    |
+| `Super + Tab`              | Toggle Between Layouts                   |
