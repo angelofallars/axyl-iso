@@ -40,9 +40,9 @@ Axyl focuses fully on tiling WMs. Level up your productivity with i3, bspwm, dwm
 <br>
 
 <p align="center">
-  <img src="https://axyl-os.github.io/assets/img/window-managers/i3.svg" alt="i3" width=80px>
+  <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/i3-shadows.svg" alt="i3" width=80px>
   <img src="https://axyl-os.github.io/assets/img/window-managers/bspwm.svg" alt="bspwm" width=80px>
-  <img src="https://axyl-os.github.io/assets/img/window-managers/dwm.svg" alt="dwm" width=80px>
+  <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/dwm-shadows.svg" alt="dwm" width=80px>
 </p>
 
 ## Contents
