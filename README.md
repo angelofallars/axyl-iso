@@ -24,7 +24,7 @@ Axyl focuses fully on tiling WMs. Level up your productivity with i3, bspwm, dwm
 
 <p align="center">
   <a href="https://github.com/axyl-os/axyl-iso/releases">
-    <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/download-now.svg" height=60px>
+    <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/download-now.svg" height=65px>
   </a>
 </p>
 
@@ -60,11 +60,22 @@ Axyl focuses fully on tiling WMs. Level up your productivity with i3, bspwm, dwm
 ## 📷 At First Glance
 
 <div align=center>
-  <h3>i3 <em>(the default desktop)</em></h3>
-  <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/i3-shadows.svg" alt="i3" width=70px>
+  <table>
+    <tr>
+      <td>
+        <div align=center>
+          <h3>i3 <em>(the default desktop)</em></h3>
+          <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/i3-shadows.svg" alt="i3" width=70px>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://user-images.githubusercontent.com/39676098/141485970-bc75299d-4e08-43d6-83c0-1472b4306a90.png" alt="i3">
+      </td>
+    </tr>
+  </table>
 </div>
-
-![image](https://user-images.githubusercontent.com/39676098/141485970-bc75299d-4e08-43d6-83c0-1472b4306a90.png)
 
 BSPWM <br><img src="https://axyl-os.github.io/assets/img/window-managers/bspwm.svg" alt="bspwm" width=50px>|DWM <br><img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/dwm-shadows.svg" alt="dwm" width=50px>
 --|--
