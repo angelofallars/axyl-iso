@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://axyl-os.github.io" target="_blank"><img src="archiso/airootfs/usr/share/axyl.png" width="250px" height="auto"/></a>
+<a href="https://axyl-os.github.io" target="_blank"><img src="https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-logo.svg" width="250px" height="auto"/></a>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@ Axyl focuses fully on tiling WMs. Level up your productivity with i3, bspwm, dwm
 
 <p align="center">
   <a href="https://github.com/axyl-os/axyl-iso/releases">
-    <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/download-now.svg" height=55px>
+    <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/download-now.svg" height=60px>
   </a>
 </p>
 
@@ -33,31 +33,60 @@ Axyl focuses fully on tiling WMs. Level up your productivity with i3, bspwm, dwm
     <img src="https://img.shields.io/badge/Learn_More-h?color=1B5488&style=for-the-badge">
   </a>
   <a href="https://discord.gg/qAXMkQdwjj">
-    <img src="https://img.shields.io/badge/JOIN_THE_AXYL_SERVER-%235F73B6.svg?style=for-the-badge&logo=discord&logoColor=white">
+    <img src="https://img.shields.io/badge/JOIN_THE_AXYL_SERVER-%23586AA8.svg?style=for-the-badge&logo=discord&logoColor=white">
   </a>
 </p>
 
-## Table of Contents
+<br>
 
-- [Gallery 📷](#gal)
+<p align="center">
+  <img src="https://axyl-os.github.io/assets/img/window-managers/i3.svg" alt="i3" width=80px>
+  <img src="https://axyl-os.github.io/assets/img/window-managers/bspwm.svg" alt="bspwm" width=80px>
+  <img src="https://axyl-os.github.io/assets/img/window-managers/dwm.svg" alt="dwm" width=80px>
+</p>
+
+## Contents
+
+- [At First Glance 📷](#gal)
+- [Installation](#install)
 - [Global Keybinds ✍️](#keybinds)
     - [dwm Keybinds](#dwmkeys)
     - [Qtile Keybinds](#qtilekeys)
     - [BSPWM Keybinds](#bspwmkeys)
     - [Xmonad Keybinds](#xmonadkeys)
-- [How To Install ⁉️](#install)
-
 
 <a id="gal"></a>
-## Gallery 📷
+## At First Glance 📷
 BSPWM|DWM
 --|--
-![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/src/img/axyl-bspwm.gif)|![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/src/img/axyl-dwm.gif)
+![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-bspwm.gif)|![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-dwm.gif)
 
 Qtile|Xmonad
 --|--
-![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/src/img/axyl-qtile.gif)|![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/src/img/axyl-xmonad.gif)
+![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-qtile.gif)|![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-xmonad.gif)
 
+<a id="install"></a>
+## Installation
+<img src="https://user-images.githubusercontent.com/39676098/141447471-75b2f8ee-43dd-4c0b-ac59-a3964ed618d8.png" align=right width=400px>
+
+First, [download](https://github.com/axyl-os/axyl-iso/releases) the latest Axyl release from the Releases section.
+
+Once you've downloaded the `.iso` file, flash the `.iso` into a portable drive, like a flash drive. We recommend using [balenaEtcher](https://www.balena.io/etcher/) for this task.
+
+Then, boot from the flash drive from the BIOS/UEFI.
+
+When you boot up Axyl, you will be greeted by a welcome screen to install the OS. You can install right away, or just try out Axyl in the live boot.
+
+Axyl's default window manager is i3. You can install up to seven window managers from the ISO.
+
+Axyl offers several window managers:
+- i3
+- bspwm
+- dwm
+- XMonad
+- Qtile
+- leftwm
+- spectrwm
 
 <a id="keybinds"></a>
 ## Global Keybinds ✍️
@@ -130,7 +159,7 @@ Qtile|Xmonad
 
 
 <a id="bspwmkeys"></a>
-## BSPWM Keybindings
+## bspwm Keybindings
 
 |        Keybind         |                 Function                 |
 | ---------------------- | ---------------------------------------- |
@@ -146,7 +175,7 @@ Qtile|Xmonad
 
 
 <a id="xmonadkeys"></a>
-## Xmonad Keybindings
+## XMonad Keybindings
 
 |        Keybind         |                 Function                 |
 | ---------------------- | ---------------------------------------- |
@@ -169,10 +198,3 @@ Qtile|Xmonad
 | `S + Shft + [J,K]`         | Swap the focused window with the [Next,Previous] Window |
 | `Super + [H,L]`            | [Shrink,Expand] The Master Area          |
 | `Super + [comma,period]`   | [Increment,Deincrement] the number of windows in the Master Area |
-
-
-<a id="install"></a>
-## Installation
-Once you boot up Axyl and entered dwm desktop, you can start the 
-Calamares installer by launching `dmenu` by hitting: `Superkey + D` 
-on your keyboard and type in: `calinstall`
