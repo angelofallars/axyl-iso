@@ -18,8 +18,8 @@
 </h1>
 
 <p align="center">
-Introducing a new minimal Arch Linux-based distro.<br>
-Axyl focuses fully on tiling WMs. Level up your productivity with i3, bspwm, dwm and more.
+  Introducing a new minimal Arch Linux-based distro.<br>
+  Axyl focuses fully on tiling WMs. Level up your productivity with i3, bspwm, dwm and more.
 </p>
 
 <p align="center">
@@ -49,12 +49,9 @@ Axyl focuses fully on tiling WMs. Level up your productivity with i3, bspwm, dwm
 
 - [📷 At First Glance](#gal)
 - [🎁 Installation](#install)
+- [🖥 Global Keybinds](#keybinds)
+    - [🛠 WM-specific Keybinds](#wmkeys)
 - [❓ Getting Help](#techsupport)
-- [✍️ Global Keybinds](#keybinds)
-    - [BSPWM Keybinds](#bspwmkeys)
-    - [dwm Keybinds](#dwmkeys)
-    - [Xmonad Keybinds](#xmonadkeys)
-    - [Qtile Keybinds](#qtilekeys)
 
 <a id="gal"></a>
 ## 📷 At First Glance
@@ -99,9 +96,9 @@ Then, boot from the flash drive from the BIOS/UEFI.
 
 When you boot up Axyl, you will be greeted by a welcome screen to install the OS. You can install right away, or just try out Axyl in the live boot.
 
-Axyl's default window manager is i3. You can install up to seven window managers from the ISO.
+i3 is Axyl's default window manager. You can install up to seven WMs from the ISO.
 
-Axyl offers several window managers:
+Axyl offers several WMs:
 - i3
 - bspwm
 - dwm
@@ -109,6 +106,38 @@ Axyl offers several window managers:
 - Qtile
 - leftwm
 - spectrwm
+
+<a id="keybinds"></a>
+## 🖥 Global Keybindings
+
+All default WMs in Axyl come with the same set of basic keybindings:
+
+|        Keybind             |                 Function                 |
+| -------------------------- | ---------------------------------------- |
+| `Ctrl + Shft + Q`          | Log Out Session                          |
+| `Ctrl + Shft + R`          | Reload Current Session                   |
+| `Super + [1..7]`           | Switches to Workspace 1 to 7             |
+| `Super + Shft + [1..7]`    | Move Apps/Windows to Workspace 1 to 7    |
+| `Ctrl + X`                 | Launch Powermenu                         |
+| `Super + Enter`            | Launch Terminal (Alacritty)              |
+| `Super + C`                | Close/Kill Window                        |
+| `Super`                    | Launch j4-dmenu-desktop                  |
+| `Super + D`                | Launch dmenu                             |
+| `Super + N`                | Launch NetworkManager dmenu              |
+| `Alt + E`                  | Launch Edit Configs dmenu                |
+| `Alt + L`                  | Launch Quick Links dmenu                 |
+| `Ctrl + Alt + L`           | Lock Screen                              |
+| `Super + Shft + W`         | Launch Firefox                           |
+| `Super + Shft + F`         | Launch Thunar                            |
+| `Super + Shft + R`         | Ranger Quick Launch                      |
+| `PrtSc`                    | Screenshot                               |
+| `Ctrl + PtrSc`             | Screenshot Active Window                 |
+| `Ctrl + Alt + PrtSc`       | Screenshot Selected Area                 |
+
+<a id="wmkeys"></a>
+## 🛠 WM-Specific Keybindings
+
+For the keybindings specific to **bspwm**, **dwm**, **XMonad** and **Qtile** refer to [this guide](https://github.com/axyl-os/axyl-iso/blob/master/keybindings.md).
 
 <a id="techsupport"></a>
 ## ❓ Getting Help
@@ -118,114 +147,3 @@ Axyl is built on top of Arch Linux. For documentation on [pacman](https://wiki.a
 If you need help or tech support for your Axyl installation, feel free to file an issue in our [issue tracker](https://github.com/axyl-os/axyl-iso/issues) so we can assist you.
 
 You may also join Axyl's [Discord server](https://discord.gg/qAXMkQdwjj) to ask for tech support and general inquiries.
-
-<a id="keybinds"></a>
-## ✍️ Global Keybinds
-
-|        Keybind         |                 Function                 |
-| ---------------------- | ---------------------------------------- |
-| `Ctrl + Shft + Q`      | Log Out Session                          |
-| `Ctrl + Shft + R`      | Reload Current Session                   |
-| `Super + [1..7]`           | Switches to Workspace 1 to 7             |
-| `Super + Shft + [1..7]`    | Move Apps/Windows to Workspace 1 to 7    |
-| `Ctrl + X`             | Launch Powermenu                         |
-| `Super + Enter`            | Launch Terminal (Alacritty)              |
-| `Super + C`                | Close/Kill Window                        |
-| `Super`                    | Launch j4-dmenu-desktop                  |
-| `Super + D`                | Launch dmenu                             |
-| `Super + N`                | Launch NetworkManager dmenu              |
-| `Alt + E`              | Launch Edit Configs dmenu                |
-| `Alt + L`              | Launch Quick Links dmenu                 |
-| `Ctrl + Alt + L`       | Lock Screen                              |
-| `Super + Shft + W`         | Launch Firefox                           |
-| `Super + Shft + F`         | Launch Thunar                            |
-| `Super + Shft + R`         | Ranger Quick Launch                      |
-| `PrtSc`                | Screenshot                               |
-| `Ctrl + PtrSc`         | Screenshot Active Window                 |
-| `Ctrl + Alt + PrtSc`   | Screenshot Selected Area                 |
-
-
-<a id="bspwmkeys"></a>
-## bspwm Keybindings
-
-|        Keybind         |                 Function                 |
-| ---------------------- | ---------------------------------------- |
-| `Super + Esc`              | Reloads SXHKD Configuration              |
-| `Super + Space`            | Alternate Between Tiled & Monocle Layout |
-| `Super + Y`                | Send Newest Marked Node To The Newest Preselected Node |
-| `Super + G`                | Swap The Current Node And The Biggest Window |
-| `Super + Ctrl + [T,S,F]`   | Sets the window state                    |
-| `Super + Shft + [Left,Down,Up,Right]` | Send The Window To Another Edge Of The Screen |
-| `Alt + Tab`            | Change Focus To Next Window, Including Floating Window |
-| `Super + [Left,Down,Up,Right]` | Change Focus To Next Window, Only Tiled Windows|
-| `Super + [H,J,K,L]`        | Focus The Node in The Given Direction [West,South,North,East] |
-
-
-<a id="dwmkeys"></a>
-## dwm Keybindings
-
-|        Keybind         |                 Function                 |
-| ---------------------- | ---------------------------------------- |
-| `Super + B`                | Toggle Bar                               |
-| `Super + [J,K]`            | Focus Next/Previous Client               |
-| `Super + [H,L]`            | Set Stack Size                           |
-| `Super + [T,F,M]`          | Set Client Layout to [Tiled,Floating,Monocle]|
-| `Super + Ctrl + comma`     | Cycle Layouts                            |
-| `Super + Shft + Space`     | Toggle Floating                          |
-| `Super + Shft [J,K]`       | Move Stack/Window [Previous,Next]        |
-| `Super + Ctrl + I`         | Increase Overall Gaps                    |
-| `Super + Ctrl + Shft + U`  | Decrease Overall Gaps                    |
-| `Super + Shft + I`         | Increase Inner Gaps                      |
-| `Super + Ctrl + Shft + I`  | Decrease Inner Gaps                      |
-| `Super + Ctrl + O`         | Increase Outer Gaps                      |
-| `Super + Ctrl + Shft + O`  | Decrease Outer Gaps                      |
-| `Super + Ctrl + 6`         | Increase Inner Horizontal Gaps           |
-| `Super + Ctrl + Shft + 6`  | Decrease Inner Horizontal Gaps           |
-| `Super + Ctrl + 7`         | Increase Inner Vertical Gaps             |
-| `Super + Ctrl + Shft + 7`  | Decrease Inner Vertical Gaps             |
-| `Super + Ctrl + 8`         | Increase Outer Horizontal Gaps           |
-| `Super + Ctrl + Shft + 8`  | Decrease Outer Horizontal Gaps           |
-| `Super + Ctrl + 9`         | Increase Outer Vertical Gaps             |
-| `Super + Ctrl + Shft + 9`  | Decrease Outer Vertical Gaps             |
-| `Super + Ctrl + T`         | Toggle Gaps                              |
-| `Super + Ctrl + Shft + D`  | Default Gaps                             |
-| `Super + E`                | Hide Window                              |
-| `Super + Shft + E`         | Restore Hidden Window                    |
-
-
-<a id="xmonadkeys"></a>
-## XMonad Keybindings
-
-|        Keybind         |                 Function                 |
-| ---------------------- | ---------------------------------------- |
-| `Super + Ctrl + O`         | Increase Left Side Gaps                  |
-| `Super + Shft + O`         | Decrease Left Side Gaps                  |
-| `Super + Ctrl + Y`         | Increase Upper Gaps                      |
-| `Super + Shft + Y`         | Decrease Upper Gaps                      |
-| `Super + Ctrl + U`         | Increase Bottom Gaps                     |
-| `Super + Shft + U`         | Decrease Bottom Gaps                     |
-| `Super + Ctrl + I`         | Increase Right Side Gaps                 |
-| `Super + Shft + I`         | Decrease Right Side Gaps                 |
-| `Super + R`                | Resize viewed windows to the correct size|
-| `Super + M`                | Move focus to the Master Window          |
-| `Super + S`                | Swap the focused window and the Master Window |
-| `Super + T`                | Push Window Back into Tiling             |
-| `Super + Space`            | Cycle Layouts                            |
-| `Super + Shft + Space`     | Reset layouts on the current workspace to default |
-| `Super + Tab`              | Move Focus to the next Window            |
-| `Super + [J,K]`            | Move Focus to the [Next,Previous] Window |
-| `S + Shft + [J,K]`         | Swap the focused window with the [Next,Previous] Window |
-| `Super + [H,L]`            | [Shrink,Expand] The Master Area          |
-| `Super + [comma,period]`   | [Increment,Deincrement] the number of windows in the Master Area |
-
-
-<a id="qtilekeys"></a>
-## Qtile Keybindings
-
-|        Keybind         |                 Function                 |
-| ---------------------- | ---------------------------------------- |
-| `Super + [H,L,J,K]`        | Switch Focus to [Left,Down,Right,Up]     |
-| `Super + Shft + [H,L,J,K]` | Move Windows to [Left,Down,Right,Up]     |
-| `Super + Ctrl + [H,L,J,K]` | Grow Apps/Windows                        |
-| `Super + Ctrl + Enter`     | Toggle Split & Unsplit Sides of Stack    |
-| `Super + Tab`              | Toggle Between Layouts                   |
