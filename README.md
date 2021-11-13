@@ -41,7 +41,7 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/i3-shadows.svg" alt="i3" width=90px>
-  <img src="https://axyl-os.github.io/assets/img/window-managers/bspwm.svg" alt="bspwm" width=90px>
+  <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/bspwm.svg" alt="bspwm" width=90px>
   <img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/dwm-shadows.svg" alt="dwm" width=90px>
 </p>
 
@@ -49,8 +49,8 @@
 
 - [📷 At First Glance](#gal)
 - [🎁 Installation](#install)
-- [🖥 Global Keybinds](#keybinds)
-    - [🛠 WM-specific Keybinds](#wmkeys)
+- [🖥 Global Keybindings](#keybinds)
+    - [🛠 WM-specific Keybindings](#wmkeys)
 - [❓ Getting Help](#techsupport)
 
 <a id="gal"></a>
@@ -74,11 +74,11 @@
   </table>
 </div>
 
-BSPWM <br><img src="https://axyl-os.github.io/assets/img/window-managers/bspwm.svg" alt="bspwm" width=50px>|DWM <br><img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/dwm-shadows.svg" alt="dwm" width=50px>
+BSPWM <br><img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/bspwm.svg" alt="bspwm" width=50px>|DWM <br><img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/dwm-shadows.svg" alt="dwm" width=50px>
 --|--
 ![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-bspwm.gif)|![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-dwm.gif)
 
-XMonad <br><img src="https://axyl-os.github.io/assets/img/window-managers/xmonad.svg" alt="XMonad" width=50px>|Qtile
+XMonad <br><img src="https://axyl-os.github.io/assets/img/window-managers/xmonad.svg" alt="XMonad" width=50px>|Qtile <br><img src="https://raw.githubusercontent.com/angelofallars/axyl-assets/main/qtile-shadows.svg" alt="qtile" width=50px>
 --|--
 ![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-xmonad.gif)|![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-qtile.gif)
 
@@ -137,7 +137,7 @@ All default WMs in Axyl come with the same set of basic keybindings:
 <a id="wmkeys"></a>
 ## 🛠 WM-Specific Keybindings
 
-For the keybindings specific to **bspwm**, **dwm**, **XMonad** and **Qtile** refer to [this guide](https://github.com/axyl-os/axyl-iso/blob/master/keybindings.md).
+For the keybindings specific to **bspwm**, **dwm**, **XMonad** and **Qtile** refer to [this guide](./keybindings.md).
 
 <a id="techsupport"></a>
 ## ❓ Getting Help
