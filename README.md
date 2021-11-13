@@ -49,8 +49,7 @@
 
 - [📷 At First Glance](#gal)
 - [🎁 Installation](#install)
-- [🖥 Global Keybindings](#keybinds)
-    - [🛠 WM-specific Keybindings](#wmkeys)
+- [🖥 Keybindings](#keybinds)
 - [❓ Getting Help](#techsupport)
 
 <a id="gal"></a>
@@ -134,15 +133,12 @@ All default WMs in Axyl come with the same set of basic keybindings:
 | `Ctrl + PtrSc`             | Screenshot Active Window                 |
 | `Ctrl + Alt + PrtSc`       | Screenshot Selected Area                 |
 
-<a id="wmkeys"></a>
-## 🛠 WM-Specific Keybindings
-
 For the keybindings specific to **bspwm**, **dwm**, **XMonad** and **Qtile** refer to [this guide](./keybindings.md).
 
 <a id="techsupport"></a>
 ## ❓ Getting Help
 
-Axyl is built on top of Arch Linux. For documentation on [pacman](https://wiki.archlinux.org/title/Pacman), how to install packages, and other tasks refer to the [Arch Linux Wiki](https://wiki.archlinux.org/).
+Axyl is built on top of Arch Linux. For documentation on [pacman](https://wiki.archlinux.org/title/Pacman), installing packages, and other tasks refer to the [Arch Linux Wiki](https://wiki.archlinux.org/).
 
 If you need help or tech support for your Axyl installation, feel free to file an issue in our [issue tracker](https://github.com/axyl-os/axyl-iso/issues) so we can assist you.
 
