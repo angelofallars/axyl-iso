@@ -82,7 +82,7 @@ XMonad <br><img src="https://axyl-os.github.io/assets/img/window-managers/xmonad
 --|--
 ![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-xmonad.gif)|![gif](https://raw.githubusercontent.com/axyl-os/axyl-os.github.io/master/assets/img/axyl-qtile.gif)
 
-<p align=center><a href="https://axyl-os.github.io">Learn More About Axyl</a></p>
+<p align=center><strong><a href="https://axyl-os.github.io">Learn More About Axyl</a></strong></p>
 
 <a id="install"></a>
 ## 🎁 Installation
@@ -90,7 +90,7 @@ XMonad <br><img src="https://axyl-os.github.io/assets/img/window-managers/xmonad
 
 [Download](https://github.com/axyl-os/axyl-iso/releases) the latest Axyl release from the Releases section.
 
-Once you've downloaded the `.iso` file, flash the `.iso` into a portable drive, like a flash drive. We recommend using [balenaEtcher](https://www.balena.io/etcher/) for this task, available on Windows, Linux and macOS.
+Once you've downloaded the `.iso` file, flash the ISO image into a portable drive, like a flash drive. We recommend using [balenaEtcher](https://www.balena.io/etcher/) for this task.
 
 Then, boot from the flash drive from the BIOS/UEFI.
 
